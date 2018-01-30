@@ -20,6 +20,7 @@ RUN wget https://github.com/getgrav/grav/releases/download/$GRAV_VERSION/grav-ad
     rm grav-admin-v$GRAV_VERSION.zip && \
     cd grav-admin && \
     bin/gpm install -f -y admin
+    bin/gpm install learn2
 
 # Return to root user
 USER root
