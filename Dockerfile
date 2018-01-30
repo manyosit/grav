@@ -1,7 +1,7 @@
 FROM nginx:1.11.9
 
 # Desired version of grav
-ARG GRAV_VERSION=1.1.16
+ARG GRAV_VERSION=1.3.10
 
 # Install dependencies
 RUN apt-get update && \
